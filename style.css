@@ -1,0 +1,143 @@
+* {
+    font-family: "Montserrat"; sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F5F5F5; 
+}
+.container {
+    margin : auto;
+    display: grid;
+    grid-template-columns: 0.33fr 1fr;
+    width: 210mm;
+    height: 270mm;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+}    
+
+.container .card-one {
+    padding: 35px 20px;
+    paddin-left: 35px;
+    background-color: #FFFAFA;
+    width: 100%;
+    color: #2F4F4F;
+}
+
+.container .card-one .profile {
+    display: inline-flex;
+    margin-bottom: 5px;
+    margin-left: -4px;
+    margin-right: -8px;
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    border: 4px solid #2F4F4F;
+    background-image: url("wayae.jpeg");
+    background-position: center top;
+    background-size: 100%;
+}   
+
+.container .card-one .contact-box {
+    margin-top: 25px;
+}
+
+.container .card-one .contact-box>* {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 0.3fr 1fr;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.container .card-one .contact-box>* .text {
+    display: inline-flex;
+    word-break: break-all;
+}
+
+.container .card-one .personal-box {
+    margin-top: 50px;
+}
+
+.container .card-one .personal-box .dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #2F4F4F;
+    border-radius: 50%;
+    margin-left: 6px;
+    margin-bottom: 7px;
+}
+
+.container .card-one .personal-box .dot.active {
+    background-color: #FFA500;
+}
+
+.container .card-one .hobbies-box {
+    margin-top: 50px;
+}
+
+.container .card-one .hobbies-box .logo {
+    margin: 10px 0px;
+    display: grid;
+    grid-template: 1fr 1fr/1fr 1fr;
+    font-size: 2.8aem;
+    grid-row-gap: 15px;
+}
+
+.container .card-two {
+    background-color: #2F4F4F;
+    padding: 40px 30px;
+    padding-right: 30px;
+    color: #FFFAFA;
+    margin-left: 10px;
+}
+
+.container .card-two .head-tittle {
+    margin-top: -5px;
+    font-size: 40px;
+    color: #F0E68C;
+    font-weight: 300px;
+}
+
+
+.container .card-two .box {
+    display: inline-block;
+    padding: 5px 30px 7px 30px;
+    margin-left: -5px;
+    margin-top: 45px;
+    background-color: #F0E68C;
+    color: #2F4F4F;
+}
+
+.container .card-two .group-1 .desc {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.container .card-two .group-2 .desc {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.container .card-two .group-2 .desc {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.container .card-two .group-3 .desc {
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+.container .card-two .group-3 .desc {
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+
+
+
+
